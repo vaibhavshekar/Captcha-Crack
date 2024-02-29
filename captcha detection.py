@@ -4,7 +4,7 @@ import numpy as np
 import pytesseract
 
 img = cv2.imread("captcha_test.jpg")
-pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r{your path here} #add tesseract path here
 model = YOLO('yolov8m.pt')
 
 result = model(img)
