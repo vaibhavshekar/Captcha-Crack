@@ -1,5 +1,5 @@
 # Packages required:
-ultralytics: pip install ultralytics 
+ultralytics: pip install ultralytics  
 tesseract: https://sourceforge.net/projects/tesseract-ocr.mirror/
 
 outputs:
